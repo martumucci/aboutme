@@ -13,7 +13,7 @@ import { RouterModule } from '@angular/router';
 export class LeftNavComponent {
 
   navItems: NavItem[] = [
-    { text: 'HOME', link: '' },
+    { text: 'HOME', link: 'home' },
     { text: 'EXPERIENCE', link: 'experience' },
     { text: 'SKILLS', link: 'skills' },
     { text: 'EDUCATION', link: 'education' },

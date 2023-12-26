@@ -1,11 +1,11 @@
 .nav {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
     width: 20rem;
     align-items: center;
     background-color: #eeece6;
-    gap: 2rem;
+    font-family: "Quicksand", Arial, sans-serif;
 
     &__presentation {
         display: flex;
@@ -17,11 +17,15 @@
             height: 10rem;
             width: 10rem;
             border-radius: 5rem;
-            margin: 2rem;
+            margin-top: 5rem;
+            margin-bottom: 2rem;
         }
 
         &__name {
             margin: 0;
+            font-family: "Playfair Display", Georgia, serif;
+            font-size: 22px;
+            font-weight: bold;
         }
 
         &__description {
@@ -33,7 +37,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
+        gap: 2rem;
+        height: 100%;
+        justify-content: flex-start;
+        margin-top: 5rem;
 
         &__link {
             color: black;
