@@ -1,0 +1,12 @@
+<div class="nav">
+    <div class="nav__presentation">
+        <img class="nav__presentation__photo" src="assets/icons/foto-perfil.jpg">
+        <p class="nav__presentation__name">Martina Mucci</p>
+        <p class="nav__presentation__description">.Net Core | Angular Developer</p>
+    </div>
+    <div class="nav__links">
+        <ng-container *ngFor="let item of navItems">
+            <a [routerLink]="item.link" class="nav__links__link">{{item.text}}</a>
+        </ng-container>
+    </div>
+</div>
