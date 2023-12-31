@@ -1,0 +1,41 @@
+.experience {
+    height: 100%;
+    font-family: "Quicksand", Arial, sans-serif;
+
+    &__title {
+        font-size: 18px;
+        letter-spacing: 5px;
+        padding-left: 2rem;
+        animation: fade-in 5s forwards;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        margin: 0;
+    }
+
+    &__timeline {
+        padding-left: 4rem;
+        display: flex;
+        flex-direction: row;
+        height: 80%;
+        animation: fade-in-2 2s ease-in both;
+
+
+        &__line {
+            border-left: 3px solid rgb(158, 157, 157);
+        }
+
+        &__items {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 2rem;
+
+            &__year {}
+
+            &__content {
+                padding-left: 3rem;
+            }
+        }
+    }
+}
