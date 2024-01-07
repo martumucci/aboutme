@@ -3,6 +3,13 @@ body {
     min-height: 100vh;
     height: 100%;
     margin: 0;
+    background-image: url('assets/icons/background2.png');
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.host-class {
+    width: 100%;
 }
 
 @keyframes fade-in {

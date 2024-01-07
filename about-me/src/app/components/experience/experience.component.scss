@@ -17,7 +17,7 @@
         display: flex;
         flex-direction: row;
         height: 80%;
-        animation: fade-in-2 2s ease-in both;
+        animation: fade-in-2 1s ease-in both;
 
 
         &__line {
@@ -35,6 +35,13 @@
 
             &__content {
                 padding-left: 3rem;
+
+                &__title {}
+
+                &__subtitle {
+                    font-style: italic;
+                    opacity: 50%;
+                }
             }
         }
     }
