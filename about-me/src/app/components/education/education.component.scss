@@ -1,0 +1,64 @@
+.education {
+    height: 100%;
+    width: 100%;
+    font-family: "Quicksand", Arial, sans-serif;
+    letter-spacing: 3px;
+
+    &__title {
+        font-size: 18px;
+        letter-spacing: 5px;
+        padding-left: 2rem;
+        animation: fade-in 5s forwards;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        margin: 0;
+    }
+
+    &__container {
+        height: 70%;
+        width: 70rem;
+        padding-left: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        &__studies {
+            height: 90%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-right: 1rem;
+
+            &__item {
+                &__title {
+                    font-weight: bold;
+                    font-size: 15px;
+                }
+
+                &__content {
+                    letter-spacing: 2px;
+                    font-style: italic;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        &__certifications {
+            height: 100%;
+            width: 50%;
+            border-left: black solid 2px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &__show{
+                border: none;
+                background: none;
+                letter-spacing: 2px;
+                font-size: 14px;
+                cursor: pointer;
+            }
+        }
+    }
+}

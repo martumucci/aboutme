@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './education.component.scss'
 })
 export class EducationComponent {
+  certifications: boolean = false;
 
+  showCertifications() {
+    this.certifications = true;
+  }
 }
