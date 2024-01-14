@@ -9,8 +9,7 @@
                     <p class="experience__timeline__items__content__text__title">Ssr Software Developer</p>
                     <p class="experience__timeline__items__content__text__subtitle">PwC Argentina</p>
                 </div>
-                <button class="experience__timeline__items__content__button">LEARN MORE →
-                </button>
+                <button class="experience__timeline__items__content__button" (click)="openModal()">LEARN MORE →</button>
             </div>
             <p class="experience__timeline__items__year">2022</p>
             <div class="experience__timeline__items__content">
@@ -18,10 +17,11 @@
                     <p class="experience__timeline__items__content__text__title">Jr Software Developer</p>
                     <p class="experience__timeline__items__content__text__subtitle">PwC Argentina</p>
                 </div>
-                <button class="experience__timeline__items__content__button">LEARN MORE →
-                </button>
+                <button class="experience__timeline__items__content__button" (click)="openModal()">LEARN MORE →</button>
             </div>
             <p class="experience__timeline__items__year">2019</p>
 
         </div>
     </div>
+</div>
+<app-learn-more [open]="open" (isOpen)="closeModal($event)"></app-learn-more>
