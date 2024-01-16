@@ -1,5 +1,8 @@
 # AboutMe
 
+![Typescript](https://badges.frapsoft.com/typescript/version/typescript-v18.svg)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.svg?v=101)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
 
 ## Development server
