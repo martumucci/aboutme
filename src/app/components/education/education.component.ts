@@ -1,16 +1,17 @@
+import { NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-education',
   standalone: true,
-  imports: [],
+  imports: [NgIf],
   templateUrl: './education.component.html',
   styleUrl: './education.component.scss'
 })
 export class EducationComponent {
-  certifications: boolean = false;
+  hideTrainings: boolean = true;
 
-  showCertifications() {
-    this.certifications = true;
+  showTrainings() {
+    this.hideTrainings = false;
   }
 }

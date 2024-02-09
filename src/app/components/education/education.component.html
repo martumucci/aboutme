@@ -1,22 +1,42 @@
 <div class="education">
-    <p class="education__title">EDUCATION</p>
-    <div class="education__container">
-        <div class="education__container__studies">
-            <div class="education__container__studies__item">
-                <p class="education__container__studies__item__title">Universidad Tecnologica Nacional</p>
-                <p class="education__container__studies__item__content">System Engineering | 2016 - 2019 (started)</p>
-            </div>
-            <div class="education__container__studies__item">
-                <p class="education__container__studies__item__title">Instituto Politecnico Superior</p>
-                <p class="education__container__studies__item__content">Electronics Technician (Technical High School Degree) | 2010 - 2015</p>
-            </div>
-            <div class="education__container__studies__item">
-                <p class="education__container__studies__item__title">Goethe Schule Rosario</p>
-                <p class="education__container__studies__item__content">Elementary School | 2003 - 2009</p>
-            </div>
-        </div>
-        <div class="education__container__certifications">
-            <button class="education__container__certifications__show" (click)="showCertifications()">SHOW CERTIFICATIONS...</button>
-        </div>
+  <p class="education__title">EDUCATION</p>
+  <div class="education__container">
+    <div class="education__container__studies">
+      <div class="education__container__studies__item">
+        <p class="education__container__studies__item__title">
+          Universidad Tecnologica Nacional
+        </p>
+        <p class="education__container__studies__item__content">
+          System Engineering | 2016 - 2019 (started)
+        </p>
+      </div>
+      <div class="education__container__studies__item">
+        <p class="education__container__studies__item__title">
+          Instituto Politecnico Superior
+        </p>
+        <p class="education__container__studies__item__content">
+          Electronics Technician (Technical High School Degree) | 2010 - 2015
+        </p>
+      </div>
+      <div class="education__container__studies__item">
+        <p class="education__container__studies__item__title">
+          Goethe Schule Rosario
+        </p>
+        <p class="education__container__studies__item__content">
+          Elementary School | 2003 - 2009
+        </p>
+      </div>
     </div>
+    <!-- <div class="education__container__trainings">
+      <button
+        class="education__container__trainings__show"
+        (click)="showTrainings()"
+        *ngIf="hideTrainings; else trainings"
+      >
+        SHOW ADITIONAL TRAININGS...
+      </button>
+      <ng-template #trainings>
+      </ng-template>
+    </div> -->
+  </div>
 </div>
